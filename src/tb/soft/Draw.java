@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Draw extends JFrame implements KeyListener{
+public class Draw extends JFrame {
     boolean b=false;
     int x,y;
     char c;
@@ -52,18 +52,5 @@ public class Draw extends JFrame implements KeyListener{
         setVisible(true);
     }
 
-    @Override
-    public void keyTyped(KeyEvent e) {
 
-    }
-
-    @Override
-    public void keyPressed(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyReleased(KeyEvent e) {
-
-    }
 }
